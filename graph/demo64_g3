@@ -1,0 +1,13 @@
+digraph {
+	graph [bgcolor="#C0FFEE" fontcolor="#000000" fontname="Microsoft Yahei" fontsize=18 label="graphviz於python的使用" rankdir=RL]
+	node [color=red fillcolor="#FFC0EE" fontcolor=green fontname="Microsoft Yahei" shape=box style=filled]
+	edge [arrowhead=open color="#002288" fontcolor="#220088" fontname="Microsoft Yahei" fontsize=24 style=dotted]
+	A [label="Node A"]
+	B [label="Node B"]
+	C [label="中文的標籤"]
+	D
+	A -> B [label=Edge1]
+	A -> C [label=Edge2]
+	B -> C [label="某種關聯"]
+	B -> D
+}

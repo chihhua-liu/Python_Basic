@@ -1,0 +1,12 @@
+graph {
+	Toyota
+	Lexus
+	Ford
+	Honda
+	Toyota -- Lexus
+	Toyota -- Ford
+	Toyota -- Honda
+	Lexus -- Ford
+	Lexus -- Honda
+	Ford -- Honda
+}
